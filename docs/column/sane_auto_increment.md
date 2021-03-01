@@ -13,7 +13,8 @@ Auto incrementing fields have a primary purpose, unique identification. Thus the
 * Create auto incrementing columns as unsigned as the negative range is never used.
 * Change your PRIMARY KEY to use the auto incrementing column.
   Change the old PRIMARY KEY to an INDEX or UNIQUE constraint.
-```SQL
+
+```sql
 CREATE TABLE t1 (
     id INT UNSIGNED AUTO_INCREMENT,
     email VARCHAR(255) NOT NULL,
@@ -30,10 +31,12 @@ ALTER TABLE t1
 
 Valid cases for negative auto incrementing values:
 * Auto incrementing field could have a starting point in the negative range.
+
 ```sql
 ALTER TABLE t1 AUTO_INCREMENT = -100;
 ```
 * Inserts into a table can manually specify a value for the auto incrementing field in the negative range.
+
 ```sql
 INSERT INTO t1 (id, email) VALUES (-1000, 'bob@smith.com');
 ```
