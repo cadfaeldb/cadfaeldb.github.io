@@ -1,2 +1,3 @@
-# cadfaeldb.github.io
-Reference documentation for recommendations made via Cadfael (https://packagist.org/packages/cadfael/cadfael)
+# Cadfael
+
+Cadfael is static analysis tool to provide critiquing for MySQL databases.
