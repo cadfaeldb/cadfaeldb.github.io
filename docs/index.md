@@ -1,6 +1,6 @@
 # Cadfael Reference Documents
 
-This is an online repository of references to explain, in-depth, why certain checks will trigger.
+An online repository of references to explain, in-depth, why certain checks will trigger.
 
 ## Types of checks
 
