@@ -15,12 +15,14 @@ Auto incrementing fields have a primary purpose, unique identification. Thus the
   Change the old PRIMARY KEY to an INDEX or UNIQUE constraint.
 
 ```sql
+# Original table design
 CREATE TABLE t1 (
     id INT UNSIGNED AUTO_INCREMENT,
     email VARCHAR(255) NOT NULL,
     PRIMARY KEY email
 );
 
+# Correcting the PRIMARY KEY
 ALTER TABLE t1
     DROP PRIMARY KEY,
     ADD PRIMARY KEY (id),

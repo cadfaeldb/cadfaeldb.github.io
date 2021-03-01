@@ -20,7 +20,8 @@ CREATE TABLE tab1 (
 You can convert from `utf8mb3` to `utf8mb4`. It's a safe operation as `utf8mb3` is a subset of `utf8mb4`.
 
 ```sql
-ALTER TABLE tab1 MODIFY COLUMN col1 CHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE tab1
+    MODIFY COLUMN col1 CHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 ## Considerations
