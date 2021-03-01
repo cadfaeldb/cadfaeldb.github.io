@@ -12,14 +12,15 @@ Ensure you create the columns you want to store UTF-8 characters in as `CHARACTE
 
 ```sql
 CREATE TABLE tab1 (
-    col1 CHAR(20) CHARACTER SET utf8mb4 NOT NULL,
+    col1 CHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    ...
 );
 ```
 
 You can alter existing columns to use the correct character set. This can be done safely as `utf8mb3` is a subset of `utf8mb4`.
 
 ```sql
-ALTER TABLE tab1 MODIFY COLUMN col1 CHAR(20) CHARACTER SET utf8mb4 NOT NULL;
+ALTER TABLE tab1 MODIFY COLUMN col1 CHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 ## Considerations
