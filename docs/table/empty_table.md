@@ -11,7 +11,7 @@ You have some empty tables. Maybe you should drop them?
 ## Remediation
 
 ```sql
-# It's always a good idea to rename a table first, before dropping it.
+# It is always a good idea to rename a table first, before dropping it.
 # This way you can quickly rename it back if anything relied on it. 
 RENAME TABLE t1 TO t1_to_be_dropped
 
