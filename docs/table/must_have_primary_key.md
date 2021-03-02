@@ -1,4 +1,4 @@
-# Title
+# Table must have a PRIMARY KEY
 
 ## Issue Type
 
