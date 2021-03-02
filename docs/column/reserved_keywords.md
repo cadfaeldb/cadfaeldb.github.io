@@ -1,5 +1,9 @@
 # Reserved Keywords
 
+## Issue Type
+
+Design
+
 ## Problem
 
 MySQL reserves keywords for special usage in its implementation of the SQL query language standard.

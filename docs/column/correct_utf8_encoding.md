@@ -1,5 +1,9 @@
 # Correct UTF-8 Encoding
 
+## Issue Type
+
+Design
+
 ## Problem
 
 UTF-8 (`utf8`) encoding in MySQL supports up to 3 bytes per character (or `utf8mb3`) which limits coverage to characters in the  [Basic Multilingual Plane](https://en.wikipedia.org/wiki/Plane_(Unicode)#Basic_Multilingual_Plane) (BMP).

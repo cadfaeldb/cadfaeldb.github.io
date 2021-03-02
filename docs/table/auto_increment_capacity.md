@@ -1,5 +1,9 @@
 # Auto Increment Capacity
 
+## Issue Type
+
+Operational
+
 ## Problem
 
 Auto incrementing columns have an upper limit based on their data type.

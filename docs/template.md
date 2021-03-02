@@ -1,5 +1,7 @@
 # Title
 
+## Issue Type
+
 ## Problem
 
 ## Remediation

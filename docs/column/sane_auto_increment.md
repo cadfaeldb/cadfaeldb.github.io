@@ -1,5 +1,9 @@
 # Sane Auto Increment
 
+## Issue Type
+
+Design
+
 ## Problem
 
 Any auto incrementing field is auto-populated by MySQL and starts at 1 and increases with each following row insert.
