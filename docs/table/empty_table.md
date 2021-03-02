@@ -6,7 +6,7 @@ Housekeeping
 
 ## Problem
 
-You have some empty tables. Maybe they should be dropped?
+You have some empty tables. Maybe you should drop them?
 
 ## Remediation
 
@@ -21,9 +21,9 @@ DROP TABLE t1_to_be_dropped;
 
 ## Considerations
 
-This check does use a few tricks to avoid accidentally flagging a table that is likely being used for a queue.
+This check takes extra steps to avoid flagging a table used as a queue.
 * Checks the auto increment offset is greater than the expected starting point.
-* Checks if there is available free space in the table (which normally indicates that this table has had rows added and deleted). 
+* Checks if there is available free space in the table (which means that this table has had rows added and deleted). 
 
 ## External Resources
 
